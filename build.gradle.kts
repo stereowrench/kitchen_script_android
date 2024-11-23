@@ -11,7 +11,7 @@ allprojects {
 
 plugins {
     alias(libs.plugins.android.application) apply false
-    alias(libs.plugins.kotlin.android) apply false
+    id("org.jetbrains.kotlin.android") version "1.7.20" apply false
 //    alias(libs.plugins.kotlin.compose) apply false
     id("org.jetbrains.compose") version "1.7.1" apply false
 }
